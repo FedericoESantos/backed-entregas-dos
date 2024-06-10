@@ -1,0 +1,153 @@
+
+body{
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    background-size: contain;
+}
+.header{
+    background-color: rgba(0, 0, 255, 0.527);
+}
+h1{
+    color: rgb(234, 237, 241);
+    text-align: center;
+    text-shadow: .125rem .125rem .1875rem rgba(12, 12, 50, 0.554);
+    padding-left: .625rem;
+}
+.imagen-central{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+table{
+    width: 100%;
+    margin: auto; 
+}
+thead{
+    background-color: rgba(106, 106, 236, 0.555);
+    text-align: center;
+}
+
+tbody{
+    background-color: rgba(255, 235, 205, 0.568);
+    text-align: center;
+}
+th, td{
+    padding-left: .625rem;
+}
+
+#product-f{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.links{
+    display: flex;
+}
+.enlaces a{
+    text-decoration: none;
+    color: rgb(9, 48, 109);
+    text-shadow: .125rem .125rem .3125rem rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 1.25rem;
+}
+.enlaces a:hover{
+    color: rgb(31, 107, 227);
+}
+.header{
+    display: flex;
+    text-align: center;
+}
+.header img{
+    height: 7.5rem;
+}
+#formulario{
+    display: flex;
+    margin: .9375rem;
+    flex-direction: column;
+    width: 18.75rem;
+    text-align: center;
+}
+.form-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-cont img{
+    height: 25rem;
+}
+label{
+    font-weight: bold;
+    margin-top: .625rem;
+}
+button{
+    margin-top: .625rem;
+}
+
+#mensajes{
+    margin-top: .9375rem;
+    width: 90%;
+    height: 21.875rem;
+    overflow-y: scroll;
+    box-shadow: 0rem 0rem .3125rem rgba(87, 160, 229, 0.426);
+    padding: .3125rem;
+    background-color: rgba(174, 174, 183, 0.618);
+}
+.mensaje{
+    border: .0625rem solid black;
+    border-radius: .3125rem;
+    padding: .3125rem;
+    background-color: rgba(239, 223, 182, 0.82);
+    display: inline-block;
+    margin-top: .3125rem;
+}
+.footer-chat{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-chat img{
+    height: 15.625rem;
+}
+ul{
+    list-style: none;
+}
+
+#paginacion a{
+    padding-left: .9375rem;
+}
+
+.lista-prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista-prod img{
+    height: 18.75rem;
+}
+
+.login-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-cont img{
+    height: 23.75rem;
+}
+.login-cont form{
+    text-align: center;
+}
+
+.registro{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.registro img{
+    height: 23.75rem;
+}
+
+.datos{
+    display: flex;
+}
+.datos img{
+    height: 15.625rem;
+}
