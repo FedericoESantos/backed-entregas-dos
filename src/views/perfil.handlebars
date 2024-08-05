@@ -1,0 +1,25 @@
+<div class="header">
+    <h1>Mi Perfil</h1>
+    <figure>
+        <a href="/api/carts/669c161c6a9894fa8bb4d3c3/purchase">
+            <img src="/img/cart.png" alt="carrito">
+        </a>
+    </figure>
+</div>
+
+<h2>Usuario {{usuario.nombre}}</h2>
+<hr>
+<div class="enlaces">
+    {{>menu}}
+</div>
+<hr>
+<br>
+
+<div class="datos">
+    <div>
+        <h3>Datos del Usuario</h3>
+        <p>Nombre: <strong>{{usuario.nombre}}</strong></p>
+        <p>Email: <strong>{{usuario.email}}</strong></p>
+    </div>
+    <img src="/img/mujer-bienvenida.png" alt="">
+</div>

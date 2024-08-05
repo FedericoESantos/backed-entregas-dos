@@ -1,0 +1,27 @@
+<div class="header">
+    <h1>Login</h1>
+    <figure>
+        <a href="/api/carts/669c161c6a9894fa8bb4d3c3/purchase">
+            <img src="/img/cart.png" alt="carrito">
+        </a>
+    </figure>
+</div>
+
+<div class="enlaces">
+    {{>menu}}
+</div>
+
+
+<br>
+
+<div class="login-cont">
+    <form action="/api/sessions/login" method="post">
+        <input type="email" name="email" placeholder="correo electrónico">
+        <input type="password" name="password" placeholder="contraseña">
+        {{!-- creo un input escondido para poder enviarle informacion desde el backend --}}
+        <input type=" text" name="web" value="web" hidden>
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+    <img src="/img/mujer-login.png" alt="">
+</div>
